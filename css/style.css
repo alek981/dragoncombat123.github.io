@@ -168,6 +168,98 @@ body{
     animation: moneyTap 1s 1;
     position: absolute;
 }
+.display_content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*Mine page*/
+.mine_content{
+    height: 40%;
+    display: none;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mine_cards{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.mine_nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 70%;
+    border-radius: 15px;
+    background-color: #32363C;
+    height: 36px;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(242, 221, 255);
+}
+.card_top{
+    font-size: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid  #545658;
+
+}
+.card_top img{
+    width: 15px;
+}
+.card_bottom{
+    width: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+}
+.card_bottom img{
+    width: 15px;
+    display: flex;
+}
+.mine_card{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 110px;
+    border-radius: 15px;
+    background-color: #32363e;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @keyframes moneyTap{
@@ -278,5 +370,3 @@ body{
         width: 240px;
      }
 }
-    
-
